@@ -16,8 +16,11 @@ In order to remove `public` from url, `httpd.conf` need to be updated.
 
 Start application with builtin PHP server `php -S 127.0.0.1:{$port} -t public` 
 
+
+
+-----------------------------
 #### TODO
-==============================
+
 * Implement loading application configuration from environment file.
 * Utility to connect to database.
 * unit testing. 
